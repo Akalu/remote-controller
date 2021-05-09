@@ -1,7 +1,11 @@
 About
 ==================
 
-This is a simple Spring Boot project designed as a web service with 2 end points and asynchronous process execution functionality 
+Remote controller is a PoC for possibility to create a web service which could be used as a access point inside corporate network to automate different applications/performing tasks, or to serve as a a part of CI/CD infrastructure.
+
+This web app designed as a simple Spring Boot project designed as a web service with 2 end points and asynchronous process execution functionality.
+
+ 
 
 DB configuration
 ==================
@@ -44,7 +48,7 @@ select * from process_audit;
 REST web interface
 ==================
 
-All resources are available from two endpoints:
+All resources are available from two end-points:
 
 ```
 /processes
